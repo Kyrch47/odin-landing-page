@@ -1,0 +1,141 @@
+body {
+    font-family: 'Lora', serif;
+    text-align: center;
+    margin: 0;
+    
+}
+a:link, a:visited {
+    color: #8B7745;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+a:hover {
+    color: #928d80;
+}
+a:active {
+    color: white;
+}
+.button {
+    font-family: 'Lora', serif;
+    background-color: #8B7745;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;
+}
+header{
+    color: #889ea8;
+    background-color: rgb(0, 29, 58);
+    background: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-origin: border-box;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25px;
+    line-height: 200%;
+}
+.header-container {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-item {
+flex: 1;
+}
+.header-bar-link {
+    flex: 3;
+    text-align: center;
+    height: 1em;
+}
+div#header-bar-logo {
+    flex: 2;
+}
+div#header-links {
+    display: flex;
+
+}
+section#header-info {
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    flex: 2;
+}
+.header-item h1 {
+    color: #8B7745;
+    font-weight: 600;
+    font-size: 3rem;
+    font-style: italic;
+    text-transform: uppercase;
+    text-shadow: #001E32 3px 3px 5px;
+    line-height: 100%;
+}
+main {
+    padding: 10%;
+}
+main img {
+    width: 250px;
+    height: 150px;
+    object-fit:cover;
+    border-radius: 20px;
+    padding: 3px;
+    border: 3px solid #8B7745;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+.main-item {
+    flex: 1;
+}
+.quote {
+    background-color: #928d80;
+    margin: 0;
+    padding: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 100;
+}
+.quote-caption {
+    text-align: right;
+}
+
+.footer-discover {
+    padding: 3%;
+    padding-left: 12%;
+    padding-right: 12%;
+    background-color: #001E32;
+    margin: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    text-align: left;
+    color: white;
+    display: flex;
+
+}
+.copyright {
+    margin: 0;
+    padding: 2%;
+    background-color: #001E32;
+    color: white;
+    background: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-origin: border-box;
+
+}
+.footer-button {
+    flex: 1;
+    align-self: flex-end;
+
+}
+.footer-discover-text {
+    flex: 4;
+}
